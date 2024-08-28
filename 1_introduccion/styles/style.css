@@ -1,0 +1,13 @@
+/* Presionar CTRL+] para comentar o descomentar */
+/* Presionar ALT+SHIFT+P para emprolijar el codigo */
+/* Sintaxis básica: */
+/* selector {propiedad1: valor1; propiedad2: valor2; ...} */
+h1 {
+    color: red;
+    background-color: black;
+}
+
+h2 {
+    color: yellow;
+    background-color: blue;
+}

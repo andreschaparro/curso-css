@@ -1,0 +1,56 @@
+/* Selector de elemento: afecta a todos los elementos del mismo tipo */
+h1 {
+    background-color: black;
+    color: white;
+}
+
+/* Varios selectores al mismo tiempo */
+h2,
+h3 {
+    background-color: blue;
+    color: yellow;
+}
+
+/* Seleccionar el body afecta a todo lo que este dentro del mismo */
+body {
+    background-color: grey;
+}
+
+/* Selector de todos los elementos */
+/*  */
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Selector de id */
+#titulo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#parrafo {
+    text-align: end;
+}
+
+/* Selector de clase: ES EL MAS UTILIZADO */
+.seccion2 {
+    background-color: magenta;
+}
+
+.seccion3 {
+    background-color: cyan;
+}
+
+/* Combinación de selectores de clase y elemento */
+h2.seccion3 {
+    background-color: red;
+}
+
+/* Combinación de selectores de id y elemento (medio al pedo porque el id es unico) */
+p#parrafo4 {
+    background-color: green;
+}
+
+/* Combinación de selectores de clase (el elemento debe tener ambas clases para que se aplique el estilo) */
+.seccion3.estilo-fuente-distinto {
+    font-family: 'Times New Roman', Times, serif;
+}
