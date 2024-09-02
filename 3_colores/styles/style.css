@@ -1,0 +1,31 @@
+h1 {
+    /* CSS ya tiene predefinidos un montón de colores que los navegadores pueden identificar por su nombre */
+    background-color: greenyellow;
+}
+
+body {
+    /* Formato hexadecimal: # RED GREEN BLUE */
+    /* Cada uno de los tres componentes del color puede valer de 00 a FF */
+    /* El #FFFFFF es el color blanco y por el contrario el #000000 es el color negro */
+    background-color: #FF7F00;
+}
+
+h2 {
+    /* Formato hexadecimal + ALPHA */
+    /* Se agrega un cuarto parametro que se utiliza para indicar la transparencia del color */
+    /* Cuando el color posee ALPHA el navegador entiende que se deben mezclar los colores que se superponen */
+    background-color: #0010FF7F;
+}
+
+h3 {
+    /* Formato rgba */
+    /* Cada uno de los tres componentes del color puede valer del 0 a 255 */
+    /* La transparencia puede valer del 0 al 1 */
+    background-color: rgba(64, 128, 255, 0.75);
+}
+
+p {
+    /* Formato hsl */
+    /* Es el menos utilizado */
+    background-color: hsl(150, 100%, 50%);
+}

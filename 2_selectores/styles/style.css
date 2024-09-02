@@ -1,4 +1,4 @@
-/* Selector de elemento: afecta a todos los elementos del mismo tipo */
+/* Selector por tipo de elemento: afecta a todos los elementos de dicho tipo */
 h1 {
     background-color: black;
     color: white;
@@ -11,18 +11,17 @@ h3 {
     color: yellow;
 }
 
-/* Seleccionar el body afecta a todo lo que este dentro del mismo */
+/* El estilo aplicado al body afecta a todo lo que está dentro de él */
 body {
     background-color: grey;
 }
 
 /* Selector de todos los elementos */
-/*  */
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-/* Selector de id */
+/* Selector por id */
 #titulo {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -31,7 +30,8 @@ body {
     text-align: end;
 }
 
-/* Selector de clase: ES EL MAS UTILIZADO */
+/* Selector por clase */
+/* ES EL MAS UTILIZADO */
 .seccion2 {
     background-color: magenta;
 }
@@ -40,17 +40,17 @@ body {
     background-color: cyan;
 }
 
-/* Combinación de selectores de clase y elemento */
+/* Combinación de selectores por tipo de elemento y clase */
 h2.seccion3 {
     background-color: red;
 }
 
-/* Combinación de selectores de id y elemento (medio al pedo porque el id es unico) */
+/* Combinación de selectores por tipo de elemento y id (no es útil porque el id es unico) */
 p#parrafo4 {
     background-color: green;
 }
 
-/* Combinación de selectores de clase (el elemento debe tener ambas clases para que se aplique el estilo) */
+/* Combinación de selectores por clase: el elemento debe tener ambas clases para que se aplique el estilo */
 .seccion3.estilo-fuente-distinto {
     font-family: 'Times New Roman', Times, serif;
 }
