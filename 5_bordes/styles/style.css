@@ -1,0 +1,68 @@
+/* El borde es lo que rodea al contenido */
+p.dotted {
+    border-style: dotted;
+    border-left-color: red;
+    border-width: 5px;
+    border-radius: 25px;
+}
+
+p.dashed {
+    border-style: dashed;
+    border-color: blue;
+    border-width: 10px;
+}
+
+p.solid {
+    border: green solid 5px;
+}
+
+p.double {
+    border-style: double;
+    border-color: magenta;
+    border-width: 5px;
+    border-top: double darkmagenta 10px;
+}
+
+p.groove {
+    border-style: groove;
+    border-color: yellow;
+    border-width: 5px;
+}
+
+p.ridge {
+    border-style: ridge;
+    border-color: cyan;
+    border-width: 5px;
+}
+
+p.inset {
+    border-style: inset;
+    border-color: gray;
+    border-width: 5px;
+}
+
+p.outset {
+    border-style: outset;
+    border-color: orange;
+    border-width: 5px;
+}
+
+p.none {
+    border-style: none;
+    border-color: black;
+    border-width: 5px;
+}
+
+/* Hace lo mismo que none por lo que no se lo utiliza */
+p.hidden {
+    border-style: hidden;
+    border-color: black;
+    border-width: 5px;
+}
+
+p.mix {
+    /* Orden: arriba derecha abajo izquierda */
+    border-style: dotted dashed double solid;
+    border-color: brown;
+    border-width: 1px;
+}
