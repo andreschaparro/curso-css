@@ -1,0 +1,83 @@
+h1 {
+    color: blue;
+    /* Alinea el texto al centro */
+    text-align: center;
+}
+
+h2 {
+    color: green;
+    /* Alinea el esto a la derecha */
+    text-align: end;
+}
+
+p {
+    color: red;
+    /* Alinea el texto de forma justificada */
+    text-align: justify;
+}
+
+b,
+i {
+    /* Se alinean de igual forma que el párrafo porque son elementos en linea */
+    color: black;
+}
+
+.overline {
+    /* Dibuja una linea por encima del texto */
+    /* Es raro que se utilice el overline */
+    text-decoration-line: overline;
+    text-decoration-color: blue;
+    /* Los estilos de línea son similares a los de los bordes */
+    text-decoration-style: double;
+}
+
+.line-through {
+    /* Tacha el texto */
+    text-decoration-line: line-through;
+    text-decoration-color: green;
+    text-decoration-style: wavy;
+}
+
+.underline {
+    /* Subraya el texto */
+    /* Es útil para marcar faltas de ortografía */
+    /* text-decoration-line: underline; */
+    /* text-decoration-color: red; */
+    /* El siguiente estilo corresponde a una línea ondulada */
+    /* text-decoration-style: wavy; */
+
+    /* SHORTHAND para text-decoration */
+    text-decoration: underline red wavy 1px;
+}
+
+.transformado1 {
+    /* La siguiente línea convierte todos los caracteres a mayusculas */
+    /* text-transform: uppercase; */
+    /* La siguiente línea convierte todos los caracteres a minusculas */
+    /* text-transform: lowercase; */
+    /* La siguiente línea hace que cada palabra comience con mayusculas */
+    text-transform: capitalize;
+}
+
+.transformado2 {
+    /* La siguiente línea le agrega sangría al párrafo */
+    text-indent: 50px;
+    /* La siguiente línea aumenta la separaciónentre las letras (no poner mas de 2px) */
+    letter-spacing: 2px;
+    /* La siguiente línea aumenta la separación entre líneas (por default es 1) */
+    line-height: 1.5;
+    /* La siguiente línea aumenta la separación entre palabras */
+    word-spacing: 20px;
+}
+
+.transformado3 {
+    /* La siguiente línea hace que el texto no quede confinado a su elemento contenedo y habilita el scroll horizontal */
+    white-space: nowrap;
+}
+
+.textoConSombra {
+    /* La siguiente línea le agrega una sombra al texto 1px a la derecha, 2px hacia abajo, con un blur o desenfoque de 3px, y de color verde */
+    /* text-shadow: 1px 3px 2px green; */
+    /* Concatenación de sombras */
+    text-shadow: 1px 3px 2px green, 1px 3px 15px black;
+}
