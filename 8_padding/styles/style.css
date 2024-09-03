@@ -1,0 +1,16 @@
+/* DEFINICIONES: */
+/* MARGIN ES EL ESPACIO DESDE EL BORDE HACIA AFUERA */
+/* EL PADDING ES EL ESPACIO DESDE EL BORDE HACIA ADENTRO */
+.cajita {
+    border: 2px solid black;
+    background-color: yellow;
+    color: black;
+    /* El padding se usa para evitar que las cosas se peguen a los bordes */
+    /* padding-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 60px; */
+    /* SHORTHAND PARA PADDING */
+    /* padding: arriba derecha abajo izquierda */
+    padding: 60px 30px 60px 30px;
+}

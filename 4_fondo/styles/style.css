@@ -1,11 +1,11 @@
 body {
-    /* Gradiente de colores de fondo */
+    /* GRADIENTE DE COLORES DE FONDO */
     /* El primer parámetro indica la dirección en que se pintará el gradiente */
     /* #FFF es otra forma de expresar el blanco */
     /* El % indica en que posición del gradiente se pintara el color en cuestión */
     /* background: linear-gradient(90deg, #FFF 0%, red 50%, blue 100%); */
 
-    /* Imagen de fondo */
+    /* IMAGEN DE FONDO */
     /* background-image: url(../assets/img/fondo.png); */
     /* El siguiente atributo permite que se muestre la imagen una única vez y no como un mosaico */
     /* background-repeat: no-repeat; */
@@ -14,7 +14,7 @@ body {
     /* El siguiente atributo permite que la imagen nos siga al hacer scroll*/
     /* background-attachment: fixed; */
 
-    /* Forma útil para simplificar el código CSS a través de un único atributo */
+    /* SHORTHAND PARA BACKGROUND */
     background: black url(../assets/img/fondo.png) no-repeat bottom fixed;
 }
 

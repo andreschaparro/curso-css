@@ -20,6 +20,8 @@ p.double {
     border-style: double;
     border-color: magenta;
     border-width: 5px;
+    /* SHORTHAND PARA UN BORDE */
+    /* border-top: style color width */
     border-top: double darkmagenta 10px;
 }
 
@@ -61,7 +63,8 @@ p.hidden {
 }
 
 p.mix {
-    /* Orden: arriba derecha abajo izquierda */
+    /* SHORTHAND PARA EL TIPO DE BORDES */
+    /* border-style: arriba derecha abajo izquierda */
     border-style: dotted dashed double solid;
     border-color: brown;
     border-width: 1px;
