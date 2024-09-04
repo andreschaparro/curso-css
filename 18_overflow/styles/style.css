@@ -3,6 +3,7 @@ div.ocultar {
     width: 200px;
     background-color: red;
     color: white;
+    border: 1px solid black;
     /* La siguiente línea oculta lo que rebalsa */
     overflow: hidden;
 }
@@ -12,6 +13,7 @@ div.scroll {
     width: 200px;
     background-color: blue;
     color: white;
+    border: 1px solid black;
     /* La siguiente línea crea un scroll para ver el contenido que rebalsa */
     overflow-y: scroll;
     position: relative;

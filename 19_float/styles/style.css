@@ -1,0 +1,10 @@
+div.caja {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border: 1px solid black;
+    /* La siguiente línea le va a permitir al texto rodear al elemento */
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
