@@ -1,9 +1,9 @@
-/* El borde es lo que rodea al contenido */
 p.dotted {
     border-style: dotted;
-    border-left-color: red;
+    border-top-color: red;
     border-width: 5px;
     border-radius: 25px;
+    font-size: 36px;
 }
 
 p.dashed {
@@ -20,9 +20,8 @@ p.double {
     border-style: double;
     border-color: magenta;
     border-width: 5px;
-    /* SHORTHAND PARA UN BORDE */
-    /* border-top: style color width */
-    border-top: double darkmagenta 10px;
+    /* SHORTHAND para border */
+    border-top: double magenta 5px;
 }
 
 p.groove {
@@ -63,9 +62,9 @@ p.hidden {
 }
 
 p.mix {
-    /* SHORTHAND PARA EL TIPO DE BORDES */
     /* border-style: arriba derecha abajo izquierda */
     border-style: dotted dashed double solid;
     border-color: brown;
     border-width: 1px;
+    font-size: 36px;
 }

@@ -1,51 +1,48 @@
-/* DEFINICIONES: */
-/* MARGIN ES EL ESPACIO DESDE EL BORDE HACIA AFUERA */
-/* EL PADDING ES EL ESPACIO DESDE EL BORDE HACIA ADENTRO */
-.cajita1 {
-    height: 300px;
-    width: 300px;
-    border: 5px solid black;
+/* Margin es el espacio del borde hacia afuera */
+div.cajita1 {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
     background-color: blue;
     color: white;
-    /* Con esta linea separo la cajita 1 de la caja 2 */
-    margin-bottom: 30px;
+    /* Con esta línea separo a la cajita 1 de la 2 verticalmente */
+    margin-bottom: 50px;
 }
 
-.cajita2 {
-    height: 300px;
-    width: 300px;
-    border: 5px solid black;
+div.cajita2 {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
     background-color: red;
     color: white;
-    /* Con esta linea separo la cajita 2 del margen izquierdo */
-    margin-left: 60px;
+    /* Con esta línea separo a la cajita 2 del margen izquierdo */
+    margin-left: 25px;
 }
 
-.cajita3 {
-    height: 300px;
-    width: 300px;
-    border: 5px solid black;
+div.cajita3 {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
     background-color: green;
     color: white;
-    /* Con esta linea separo la cajita 3 de la caja 2 */
-    margin-top: 30px;
+    /* Con esta línea separo a la cajita 3 de la 2 verticalmente */
+    margin-top: 50px;
 }
 
-/* SHORTHAND PARA MARGIN */
-/* margin: arriba derecha abajo izquierda */
-.cajita4 {
-    height: 300px;
-    width: 300px;
-    border: 5px solid black;
+div.cajita4 {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
     background-color: cyan;
     color: black;
-    margin: 10px 30px 50px 150px;
+    /* margin: arriba derecha abajo izquierda */
+    margin: 25px 0px 50px 75px;
 }
 
-.cajita5 {
-    height: 300px;
-    width: 300px;
-    border: 5px solid black;
+div.cajita5 {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
     background-color: magenta;
     color: white;
 }

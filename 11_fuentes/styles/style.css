@@ -1,0 +1,56 @@
+p.serif {
+    /* Siempre es recomendable elegir 3 fuentes y que sean todas del mismo tipo */
+    /* El navegador va a buscar la primera fuente que tenga el cliente instalada en su Windows de izquierda a derecha */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p.sansSerif {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p.monospace {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Fuente de fantasía de google llamada Shadows Into Light */
+/* Código copiado de la pagina https://fonts.google.com/specimen/Shadows+Into+Light */
+.shadows-into-light-regular {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p.cursiva {
+    /* Alternativa al elemento en línea i */
+    font-style: italic;
+}
+
+p.negrita {
+    /* Alternativa al elemento en línea b */
+    font-weight: bold;
+}
+
+p.smallCaps {
+    /* La siguiente línea muestra todo el texto en mayúscula, pero la primera letra es más alta  */
+    font-variant: small-caps;
+}
+
+p.emEstandar {
+    font-size: 1em;
+}
+
+p.emGrande {
+    font-size: 1.5em;
+}
+
+p.emChico {
+    font-size: 0.8em;
+}
+
+p.absoluto {
+    font-size: 36px;
+}
+
+p.relativo {
+    font-size: 2vw;
+}

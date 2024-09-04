@@ -1,15 +1,9 @@
 /* Unidades CSS */
+/* No utilizaremos ex y rem */
 
-/* LAS QUE NO UTILIZAREMOS: */
-/* ex */
-/* rem */
-
-/* LAS QUE UTILIZAREMOS: */
 /* px es una medida absoluta en pixeles */
 /* % es relativo al padre */
-/* em es relativo al tamaño de la fuente del elemento */
-
-/* LAS SIGUIENTES SON LAS MAS UTILIZADAS PORQUE NOS PERMITEN CREAR UN DISEÑO RESPONSIVE */
+/* em es relativo al tamaño de la fuente original del elemento */
 /* vm es relativo al 1% del ancho del viewport (lo que se ve en la pantalla) */
 /* vh es relativo al 1% del alto del viewport */
 /* vmax es relativo al 1% del lado mas grande del viewport */

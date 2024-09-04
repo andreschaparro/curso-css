@@ -1,48 +1,40 @@
-.cajita1 {
-    /* La cajita 1 por defecto ocupa la altura de la fuente y todo el ancho porque es un div que es un elemento en bloque */
+div.cajita1 {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
     background-color: blue;
     color: white;
-    border: 2px solid black;
-    /* Ahora modificamos su ancho y alto de forma absoluta para convertirla en un cuadrado */
-    height: 100px;
-    width: 100px;
+    margin-bottom: 20px;
 }
 
-.cajita2 {
-    background-color: red;
-    color: white;
-    border: 2px solid black;
-    /* Ahora le colocaremos un minimo al alto por lo que podrá estirarse verticalmente para que quepa su contenido */
+div.cajita2 {
+    /* La siguiente línea le establece un valor mínimo al alto */
+    /* Esto permitirá que se extienda verticalmente de acuerdo a su contenido */
     min-height: 100px;
     width: 100px;
+    border: 2px solid black;
+    background-color: red;
+    color: white;
+    margin-bottom: 20px;
 }
 
-.cajita3 {
-    background-color: cyan;
-    color: black;
-    border: 2px solid black;
-    /* Ahora le colocaremos un maximo al alto por lo que podrá retrotraerse verticalmente si sobra lugar para su contenido */
-    /* Si le ponemos un contenido que no entra se producirá un rebalse y el mismo se mostrará por fuera de la cajita 3 */
+div.cajita3 {
+    /* La siguiente línea le establece un valor máximo al alto */
+    /* Esto permitirá que se retrotraiga verticalmente de acuerdo a su contenido */
     max-height: 100px;
     width: 100px;
+    border: 2px solid black;
+    background-color: cyan;
+    color: black;
+    margin-bottom: 20px;
 }
 
-.cajitaExterna {
-    background-color: magenta;
-    color: white;
-    border: 2px solid black;
-    height: 500px;
-    width: 500px;
-}
-
-.cajitaInterna {
-    background-color: green;
-    color: white;
-    border: 2px solid black;
-    height: 100px;
-    /* La siguiente linea va a provocar que la cajita interna ocupe todo el ancho del la cajita externa porque es un elemento en bloque */
-    /* Por lo que no tiene sentido usarla */
-    /* min-width: 100px; */
-    /* La siguiente linea va a provocar que la cajita interna limite el ancho que ocupa dentro de la cajita externa */
+div.cajita4 {
+    /* La siguiente línea le establece un valor máximo al ancho */
+    /* Esto permitirá que se retrotraiga horizontalmente de acuerdo a su contenido */
     max-width: 100px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: yellow;
+    color: black;
 }

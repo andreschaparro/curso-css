@@ -16,7 +16,7 @@ body {
     background-color: grey;
 }
 
-/* Selector de todos los elementos */
+/* Selector para todos los elementos de la página */
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -30,8 +30,7 @@ body {
     text-align: end;
 }
 
-/* Selector por clase */
-/* ES EL MAS UTILIZADO */
+/* Selector por clase: es el más utilizado */
 .seccion2 {
     background-color: magenta;
 }
@@ -43,11 +42,6 @@ body {
 /* Combinación de selectores por tipo de elemento y clase */
 h2.seccion3 {
     background-color: red;
-}
-
-/* Combinación de selectores por tipo de elemento y id (no es útil porque el id es unico) */
-p#parrafo4 {
-    background-color: green;
 }
 
 /* Combinación de selectores por clase: el elemento debe tener ambas clases para que se aplique el estilo */

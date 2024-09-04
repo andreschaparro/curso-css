@@ -1,83 +1,79 @@
-h1 {
-    color: blue;
-    /* Alinea el texto al centro */
+p.center {
     text-align: center;
 }
 
-h2 {
-    color: green;
-    /* Alinea el esto a la derecha */
+p.end {
     text-align: end;
 }
 
-p {
-    color: red;
-    /* Alinea el texto de forma justificada */
+p.justify {
     text-align: justify;
 }
 
 b,
 i {
-    /* Se alinean de igual forma que el párrafo porque son elementos en linea */
-    color: black;
+    /* Los elementos en línea toman la alineación del elemento en bloque que los contiene */
+    color: red;
 }
 
-.overline {
-    /* Dibuja una linea por encima del texto */
-    /* Es raro que se utilice el overline */
+p.overline {
+    /* No se suele dibujar una línea por arriba del texto */
     text-decoration-line: overline;
-    text-decoration-color: blue;
-    /* Los estilos de línea son similares a los de los bordes */
+    /* Los estilos de la línea dibujada son similares a los de los bordes */
     text-decoration-style: double;
+    text-decoration-color: blue;
 }
 
-.line-through {
-    /* Tacha el texto */
+p.line-through {
+    /* Tachar el texto */
     text-decoration-line: line-through;
-    text-decoration-color: green;
     text-decoration-style: wavy;
+    text-decoration-color: black;
 }
 
-.underline {
-    /* Subraya el texto */
-    /* Es útil para marcar faltas de ortografía */
-    /* text-decoration-line: underline; */
-    /* text-decoration-color: red; */
-    /* El siguiente estilo corresponde a una línea ondulada */
-    /* text-decoration-style: wavy; */
-
+p.underline {
+    /* Subrayar el texto para marcar faltas de ortografía */
+    text-decoration-line: underline;
+    text-decoration-color: red;
+    text-decoration-style: wavy;
     /* SHORTHAND para text-decoration */
     text-decoration: underline red wavy 1px;
 }
 
-.transformado1 {
-    /* La siguiente línea convierte todos los caracteres a mayusculas */
-    /* text-transform: uppercase; */
-    /* La siguiente línea convierte todos los caracteres a minusculas */
-    /* text-transform: lowercase; */
-    /* La siguiente línea hace que cada palabra comience con mayusculas */
+p.uppercase {
+    text-transform: uppercase;
+}
+
+p.lowercase {
+    text-transform: lowercase;
+}
+
+p.capitalize {
     text-transform: capitalize;
 }
 
-.transformado2 {
+p.atributosVarios {
     /* La siguiente línea le agrega sangría al párrafo */
-    text-indent: 50px;
+    text-indent: 20px;
     /* La siguiente línea aumenta la separaciónentre las letras (no poner mas de 2px) */
     letter-spacing: 2px;
     /* La siguiente línea aumenta la separación entre líneas (por default es 1) */
     line-height: 1.5;
     /* La siguiente línea aumenta la separación entre palabras */
-    word-spacing: 20px;
+    word-spacing: 10px;
 }
 
-.transformado3 {
-    /* La siguiente línea hace que el texto no quede confinado a su elemento contenedo y habilita el scroll horizontal */
+p.scrollHorizontal {
     white-space: nowrap;
 }
 
-.textoConSombra {
-    /* La siguiente línea le agrega una sombra al texto 1px a la derecha, 2px hacia abajo, con un blur o desenfoque de 3px, y de color verde */
-    /* text-shadow: 1px 3px 2px green; */
+p.textoConSombra {
+    /* La siguiente línea le agrega una sombra al texto */
+    /* 1px hacia la derecha */
+    /* 2px hacia abajo */
+    /* un blur o desenfoque de 3px */
+    /* color verde */
+    text-shadow: 1px 3px 2px green;
     /* Concatenación de sombras */
     text-shadow: 1px 3px 2px green, 1px 3px 15px black;
 }
