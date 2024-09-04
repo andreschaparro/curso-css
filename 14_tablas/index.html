@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de CSS</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <h2>Tabla 1</h2>
+    <div>
+        <!-- Cada elemento va a tener su propio borde -->
+        <table class="original">
+            <tr>
+                <th class="original">&nbsp;</th>
+                <th class="original">Nombre</th>
+                <th class="original">Apellido</th>
+                <th class="original">Tecnología</th>
+            </tr>
+            <tr>
+                <td class="original">1</td>
+                <td class="original">Ricardo</td>
+                <td class="original">Pérez</td>
+                <td class="original">HTML</td>
+            </tr>
+            <tr>
+                <td class="original">2</td>
+                <td class="original">María</td>
+                <td class="original">González</td>
+                <td class="original">JAVASCRIPT</td>
+            </tr>
+            <tr>
+                <td class="original">3</td>
+                <td class="original">Juan</td>
+                <td class="original">Rodríguez</td>
+                <td class="original">CSS</td>
+            </tr>
+        </table>
+    </div>
+    <br>
+
+    <div>
+        <h2>Tabla 2</h2>
+        <!-- Vamos a colapsar la tabla para que se unan los bordes de cada elemento -->
+        <table class="original colapsar">
+            <tr>
+                <th class="original">&nbsp;</th>
+                <th class="original">Nombre</th>
+                <th class="original">Apellido</th>
+                <th class="original">Tecnología</th>
+            </tr>
+            <tr>
+                <td class="original">1</td>
+                <td class="original">Ricardo</td>
+                <td class="original">Pérez</td>
+                <td class="original">HTML</td>
+            </tr>
+            <tr>
+                <td class="original">2</td>
+                <td class="original">María</td>
+                <td class="original">González</td>
+                <td class="original">JAVASCRIPT</td>
+            </tr>
+            <tr>
+                <td class="original">3</td>
+                <td class="original">Juan</td>
+                <td class="original">Rodríguez</td>
+                <td class="original">CSS</td>
+            </tr>
+        </table>
+    </div>
+    <br>
+
+    <h2>Tabla 3</h2>
+    <div>
+        <!-- Personalización con CSS -->
+        <table class="original colapsar modificada">
+            <colgroup>
+                <col class="primeraColumna">
+                <col>
+                <col>
+                <col>
+            </colgroup>
+            <tr class="modificada">
+                <th class="original modificada">&nbsp;</th>
+                <th class="original modificada">Nombre</th>
+                <th class="original modificada">Apellido</th>
+                <th class="original modificada">Tecnología</th>
+            </tr>
+            <tr class="modificada">
+                <td class="original modificada">1</td>
+                <td class="original modificada">Ricardo</td>
+                <td class="original modificada">Pérez</td>
+                <td class="original modificada">HTML</td>
+            </tr>
+            <tr class="modificada">
+                <td class="original modificada">2</td>
+                <td class="original modificada">María</td>
+                <td class="original modificada">González</td>
+                <td class="original modificada">JAVASCRIPT</td>
+            </tr>
+            <tr class="modificada">
+                <td class="original modificada">3</td>
+                <td class="original modificada">Juan</td>
+                <td class="original modificada">Rodríguez</td>
+                <td class="original modificada">CSS</td>
+            </tr>
+            <tr class="modificada">
+                <td class="original modificada">4</td>
+                <td class="original modificada">Pedro</td>
+                <td class="original modificada">González</td>
+                <td class="original modificada">JAVASCRIPT</td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+table.original,
+th.original,
+td.original {
+    border: 1px solid black;
+}
+
+table.colapsar {
+    border-collapse: collapse;
+}
+
+table.modificada {
+    border: 2px solid black;
+    height: 50px;
+}
+
+th.modificada {
+    border: 2px solid black;
+    height: 50px;
+    background-color: grey;
+}
+
+td.modificada {
+    width: 200px;
+    text-align: center;
+}
+
+col.primeraColumna {
+    border: 2px solid black;
+    width: 200px;
+}
+
+/* Pseudoselector */
+/* Nos permite modificar el comportamiento de las filas pares */
+tr.modificada:nth-child(even) {
+    background-color: cyan;
+}
+
+/* Pseudoselector */
+/* Nos permite modificar el comportamiento de las filas impares */
+tr.modificada:nth-child(odd) {
+    background-color: yellow;
+}
+
+/* Pseudoselector */
+/* Nos permite cambiar el aspecto del elemento cuando le pasamos por arriba el mouse */
+tr.modificada:hover {
+    background-color: red;
+}
