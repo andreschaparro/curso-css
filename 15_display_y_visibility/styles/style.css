@@ -1,0 +1,53 @@
+div.cajita1 {
+    /* Los elementos en bloque ocupan todo el ancho de la pantalla que pueden ocupar */
+    /* Por lo que no respetan el atributo width */
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 1px solid black;
+    /* La siguiente línea nos permite cambiar el comportamiento del div para que se comporte como un elemento en línea */
+    display: inline;
+}
+
+div.cajita2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border: 1px solid black;
+    /* La siguiente línea oculta el elemento, por lo que sigue ocupando el espacio en la pantalla */
+    visibility: hidden;
+}
+
+div.cajita3 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border: 1px solid black;
+    /* La siguiente línea quita el elemento, por lo que deja de ocupar el espacio en la pantalla */
+    display: none;
+}
+
+span.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    /* La siguiente línea nos permite cambiar el comportamiento del span para que se comporte como un elemento en bloque */
+    /* Pero a diferencia del div no va a ocupar todo el ancho posible, sino el que le indicamos con el atributo width */
+    display: block;
+}
+
+span.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: magenta;
+    border: 1px solid black;
+    visibility: hidden;
+}
+
+span.box3 {
+    width: 100px;
+    height: 100px;
+    background-color: cyan;
+    border: 1px solid black;
+}
