@@ -1,6 +1,4 @@
 div.cajita1 {
-    /* Los elementos en bloque ocupan todo el ancho de la pantalla que pueden ocupar */
-    /* Por lo que no respetan el atributo width */
     width: 100px;
     height: 100px;
     background-color: red;
@@ -33,7 +31,6 @@ span.box1 {
     background-color: yellow;
     border: 1px solid black;
     /* La siguiente línea nos permite cambiar el comportamiento del span para que se comporte como un elemento en bloque */
-    /* Pero a diferencia del div no va a ocupar todo el ancho posible, sino el que le indicamos con el atributo width */
     display: block;
 }
 

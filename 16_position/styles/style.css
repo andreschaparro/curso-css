@@ -42,14 +42,14 @@ div.posSticky {
 }
 
 img {
-    width: 100%;
+    width: 50%;
     height: auto;
 }
 
 p.texto {
     position: absolute;
     top: 50%;
-    width: 100%;
+    width: 50%;
     text-align: center;
     color: white;
 }
