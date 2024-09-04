@@ -1,0 +1,41 @@
+div.posStatic {
+    position: static;
+    border: 2px solid blue;
+}
+
+div.posRelative {
+    /* De la posición por defecto se mueve a otra en base a desplazamientos */
+    /* Puede provocar la aparición de un scroll */
+    /* Puede provocar la superposición de elementos con desplazamientos negativos */
+    position: relative;
+    left: 50px;
+    border: 2px solid red;
+}
+
+div.posFixed {
+    /* Queda fijado a una posición de la pantalla y no es afectado por el scroll */
+    /* No toma en cuenta la posición defecto */
+    /* Se utiliza para mostrar mensajes importantes */
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: 2px solid green;
+}
+
+div.posAbsolute {
+    /* Queda fijado a una posición de la pantalla pero se ve afectado por el scroll */
+    /* No toma en cuenta la posición defecto */
+    /* Puede provocar la aparición de un scroll */
+    /* Puede provocar la superposición de elementos */
+    position: absolute;
+    top: 1000px;
+    border: 2px solid magenta;
+}
+
+div.posSticky {
+    /* Es una mezcla entre relative y fixed */
+    /* De la posición por defecto se mueve a otra en base a desplazamientos y no es afectado por el scroll */
+    position: sticky;
+    top: 0;
+    border: 2px solid orange;
+}
