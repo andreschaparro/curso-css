@@ -1,0 +1,42 @@
+ul {
+    /* La siguiente línea elimina los puntos que preceden a cada ítem */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* La siguiente línea evita que aparezcan barras de scroll */
+    overflow: hidden;
+    background-color: darkslategray;
+}
+
+li {
+    /* La siguiente línea produce que los li floten a la izquierda uno a continuación del del otro */
+    float: left;
+    border-right: 1px solid lightslategray;
+}
+
+li:last-child {
+    /* La siguiente línea produce que el último li flote a la derecha */
+    float: right;
+    border-right: none;
+    border-left: 1px solid lightslategray;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    /* 10px para arriba y abajo */
+    /* 15px para derecha e izquierda */
+    padding: 10px 30px;
+}
+
+/* Combinación de las pseudoclases hover y not */
+/* La pseudoclase not nos permite aplicarles el estilo solo a los a que no tienen la clase active */
+li a:hover:not(.active) {
+    background-color: slategray;
+}
+
+li a.active {
+    background-color: cadetblue;
+}
