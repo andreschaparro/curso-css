@@ -1,0 +1,61 @@
+/* Se aplica a los links que no se visitaron */
+a:link {
+    color: black;
+    text-decoration-line: none;
+}
+
+/* Se aplica a los links que se visitaron */
+a:visited {
+    color: black;
+    text-decoration-line: none;
+}
+
+/* Se aplica a los links cuando les pasamos el cursor por encima */
+a:hover {
+    background-color: lime;
+}
+
+/* Se aplica a los links cuando les hacemos clic y mantenemos presionado el botón  */
+a:active {
+    background-color: orange;
+}
+
+/* Se aplica al primer hijo del tipo pre */
+pre:first-child {
+    background-color: violet;
+}
+
+/* Se aplica al último hijo del tipo pre */
+pre:last-child {
+    background-color: salmon;
+}
+
+span {
+    display: block;
+}
+
+/* Se aplica a los hijos pares del tipo span */
+span:nth-child(even) {
+    background-color: gold;
+}
+
+/* Se aplica a los hijos impares del tipo span */
+span:nth-child(odd) {
+    background-color: silver;
+}
+
+/* Se aplica al hacer foco sobre el input para ingresar un texto */
+input:focus {
+    background-color: lightblue;
+}
+
+p {
+    display: none;
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+/* Apliación de la pseudoclase hover junto al selector descendiente */
+div:hover p {
+    display: block;
+}
