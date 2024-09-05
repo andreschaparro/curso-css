@@ -1,0 +1,23 @@
+/* Selector descendiente */
+/* Afecta a toda la descendencia (hijos, nietos, ...) de un div que sea un p */
+div p {
+    background-color: cyan;
+}
+
+/* Selector de hijos */
+/* Afecta a todos los hijos de un div que sean un p */
+div>p {
+    background-color: yellow;
+}
+
+/* Selector de hermanos */
+/* Afecta a todos los hermanos de un div que sean un p */
+div~p {
+    background-color: orange;
+}
+
+/* Selector del hermano adyacente */
+/* Afecta al primer hermano de un div que sea un p */
+div+p {
+    background-color: magenta;
+}
