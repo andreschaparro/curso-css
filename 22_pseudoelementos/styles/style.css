@@ -1,0 +1,32 @@
+/* Se aplica a la primer línea que se ve en la página de un p */
+p::first-line {
+    color: red;
+}
+
+/* Se aplica a la primera letra de un p */
+p::first-letter {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+/* Se inyecta contenido (en este caso texto) antes del elemento p */
+p::before {
+    content: "Versión larga: ";
+}
+
+/* Se inyecta contenido (en este caso una imagen) después del elemento p */
+p::after {
+    content: url(../assets/img/icono_css.png);
+}
+
+/* Se aplica a todos los li de la página */
+::marker {
+    color: red;
+    font-size: 1.5em;
+}
+
+/* Se aplica al seleccionar texto en la página */
+::selection {
+    background-color: black;
+    color: white;
+}
