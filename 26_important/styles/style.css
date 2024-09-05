@@ -1,0 +1,17 @@
+h1 {
+    color: red;
+}
+
+h2 {
+    color: blue;
+}
+
+p {
+    color: green !important;
+}
+
+/* El !important evita que se afecte el valor del atributo ya definido arriba */
+/* No es una bunea práctica utilizar !important */
+p {
+    color: magenta;
+}
