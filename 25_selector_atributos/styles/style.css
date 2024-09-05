@@ -1,0 +1,10 @@
+/* Selector para los elementos label que tienen el atributo type con algún valor */
+input[type] {
+    font-size: 1.5em;
+}
+
+/* Selector para los elementos input que tienen el atributo type con el valor text */
+input[type="text"] {
+    background-color: black;
+    color: white;
+}
