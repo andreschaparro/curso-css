@@ -1,0 +1,10 @@
+body {
+    background-color: black;
+}
+
+img {
+    /* Vuelve a la img más transparente y genera una mezcla con el color de fondo */
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+}
