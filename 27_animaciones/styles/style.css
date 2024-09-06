@@ -11,29 +11,29 @@ img {
 /* La siguiente línea crea una regla keyframes llamada imagen */
 @keyframes imagen {
     from {
-        /* Estado inicial de los atributos*/
+        /* Estado inicial de las propiedades*/
         opacity: 1;
     }
 
     to {
-        /* Estado final de los atributos */
+        /* Estado final de las propiedades */
         opacity: 0.5;
     }
 }
 
+/* El problema es que una vez finalizada la animación se vuelve instantáneamente al estado inicial, aunque el cursor siga sobre la imagen */
+/* Este caso es mejor resolverlo con transiciones */
 img:hover {
     /* El atributo animation debe tener como valor el nombre de la regla keyframe */
     animation: imagen;
-    /* La siguiente línea determina cuanto tiempo se tarda en modificar los atributos de su estado inicial al final */
+    /* La siguiente línea determina cuanto tiempo se tarda en modificar las propiedades */
     animation-duration: 2s;
-    /* La siguiente línea permite repetir indefinidamente la animación*/
-    animation-iteration-count: infinite;
 }
 
 @keyframes cuadrado {
 
     /* En este caso no usamos from y to */
-    /* Definimos el estado de los atributos para varios instantes de una línea de tiempo */
+    /* Definimos varios estados para las propiedades de modo de crear una línea de tiempo */
     0% {
         background-color: red;
         left: 0;
@@ -72,6 +72,7 @@ div.cuadradito {
     position: relative;
     animation: cuadrado;
     animation-duration: 5s;
+    /* La siguiente línea permite repetir indefinidamente la animación */
     animation-iteration-count: infinite;
     /* La siguiente línea determina como se procesa la animación */
     animation-timing-function: ease-in-out;

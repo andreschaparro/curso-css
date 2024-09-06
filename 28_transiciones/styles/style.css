@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+img {
+    position: absolute;
+    top: 0;
+    /* Estado inicial de las propiedades que cambian durante la transición */
+    opacity: 1;
+    width: 300px;
+    /* transition: property duration timing-function delay, property duration timing-function delay*/
+    transition: opacity 2s ease-in-out 2s, width 2s linear 0s;
+}
+
+img:hover {
+    /* Estado final de las propiedades que cambian durante la transición */
+    opacity: 0.5;
+    width: 500px;
+}
