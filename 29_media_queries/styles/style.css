@@ -1,0 +1,51 @@
+.contenedor {
+    overflow: auto;
+}
+
+.leftside {
+    float: none;
+    width: auto;
+}
+
+.texto {
+    position: absolute;
+    top: 0;
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Las media query permiten cambiar las propiedades CSS, por ejemplo, a partir de un ancho mínimo de la página */
+@media (min-width: 600px) {
+    .leftside {
+        float: left;
+        width: 300px;
+    }
+
+    img {
+        width: 300px;
+    }
+
+    .texto {
+        position: static;
+    }
+}
+
+/* También permiten cambiar las propiedades CSS hasta un ancho máximo de la página */
+@media (max-width: 900px) {
+    body {
+        background-color: black;
+    }
+}
+
+/* También se pueden combinar condiciones con operadores lógicos y utilizar la propiedad del alto en vez del ancho */
+@media ((min-height: 300px) and (max-height: 600px)) {
+    body {
+        background-color: blue;
+    }
+}
+
+/* Breakpoints habituales: */
+/* Monitor 1200px */
+/* Laptop 992px */
+/* Tablet 768px */
+/* Celular 600px */
