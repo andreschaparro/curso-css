@@ -1,0 +1,113 @@
+.flex-container {
+    display: flex;
+    background-color: cyan;
+    margin: 10px;
+    height: 500px;
+}
+
+.flex-container>div {
+    background-color: magenta;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+}
+
+.flex-container>div.probar-stretch {
+    height: auto;
+}
+
+.flex-container>div.distinta {
+    width: 120px;
+    height: 120px;
+}
+
+/* La siguiente opción viene por defecto */
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.column-reverse {
+    flex-direction: column-reverse;
+}
+
+/* La siguiente opción viene por defecto y no produce un colapso */
+.nowrap {
+    flex-wrap: nowrap;
+}
+
+/* La siguiente opción es muy importante utilizarla en diseño responsive para forzar un colapso */
+.wrap {
+    flex-wrap: wrap;
+}
+
+.wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+/* La siguiente opción viene por defecto */
+.flex-start {
+    justify-content: flex-start;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.center-content {
+    justify-content: center;
+}
+
+/* La siguiente opción se utiliza muchísimo */
+.space-between {
+    justify-content: space-between;
+}
+
+/* La siguiente opción se utiliza muchísimo */
+.space-around {
+    justify-content: space-around;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+/* La siguiente opción viene por defecto */
+.flex-start-items {
+    align-items: flex-start;
+}
+
+.flex-end-items {
+    align-items: flex-end;
+}
+
+.center-items {
+    align-items: center;
+}
+
+.stretch-items {
+    align-items: stretch;
+}
+
+/* La siguiente opción viene por defecto */
+.flex-start-content {
+    align-content: flex-start;
+}
+
+.flex-end-content {
+    align-content: flex-end;
+}
+
+.center-content {
+    align-content: center;
+}

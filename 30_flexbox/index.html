@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de CSS</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <div>
+        <h2>flex-direction</h2>
+        <div class="flex-container row">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </div>
+        <div class="flex-container column">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </div>
+        <div class="flex-container row-reverse">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </div>
+        <div class="flex-container column-reverse">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </div>
+    </div>
+    <div>
+        <h2>flex-wrap</h2>
+        <div class="flex-container row nowrap">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+        </div>
+        <div class="flex-container row wrap">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+        </div>
+        <div class="flex-container row wrap-reverse">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+        </div>
+    </div>
+    <div>
+        <h2>justify-content</h2>
+        <div class="flex-container row wrap flex-start">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </div>
+        <div class="flex-container row wrap flex-end">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </div>
+        <div class="flex-container row wrap center-content">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </div>
+        <div class="flex-container row wrap space-between">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </div>
+        <div class="flex-container row wrap space-around">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </div>
+        <div class="flex-container row wrap space-evenly">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </div>
+    </div>
+    <div>
+        <h2>align-items</h2>
+        <div class="flex-container row wrap space-around flex-start-items">
+            <div>1</div>
+            <div class="distinta">2</div>
+            <div>3</div>
+        </div>
+        <div class="flex-container row wrap space-around flex-end-items">
+            <div>1</div>
+            <div class="distinta">2</div>
+            <div>3</div>
+        </div>
+        <div class="flex-container row wrap space-around center-items">
+            <div>1</div>
+            <div class="distinta">2</div>
+            <div>3</div>
+        </div>
+        <div class="flex-container row wrap space-around stretch-items">
+            <div class="probar-stretch">1</div>
+            <div class="probar-stretch">2</div>
+            <div class="probar-stretch">3</div>
+        </div>
+    </div>
+    <div>
+        <h2>align-content</h2>
+        <div class="flex-container row wrap space-around flex-start-content">
+            <div>1</div>
+            <div class="distinta">2</div>
+            <div>3</div>
+        </div>
+        <div class="flex-container row wrap space-around flex-end-content">
+            <div>1</div>
+            <div class="distinta">2</div>
+            <div>3</div>
+        </div>
+        <div class="flex-container row wrap space-around center-content">
+            <div>1</div>
+            <div class="distinta">2</div>
+            <div>3</div>
+        </div>
+    </div>
+    <!-- En el navegador modificar el display de un flex-container para ver que resultados producen la combinación de los diferentes atributos -->
+</body>
+
+</html>
