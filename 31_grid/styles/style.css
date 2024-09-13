@@ -1,0 +1,115 @@
+.grid-container {
+    display: grid;
+    background-color: cyan;
+    margin: 10px;
+}
+
+.grid-container>div {
+    background-color: magenta;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.grid-container>div.grande {
+    width: 120px;
+    height: 120px;
+}
+
+.grid-template-px {
+    grid-template-columns: 200px 80px 200px;
+    grid-template-rows: 120px 80px 120px;
+}
+
+.grid-template-repeat {
+    grid-template-columns: repeat(3, 120px);
+    grid-template-rows: repeat(3, 120px);
+}
+
+.grid-template-auto {
+    grid-template-columns: 120px auto 120px;
+    grid-template-rows: 120px 120px auto;
+}
+
+.grid-template-percent {
+    grid-template-columns: 20% auto 20%;
+    grid-template-rows: 120px 120px auto;
+}
+
+.justify-items-start {
+    justify-items: start;
+}
+
+.justify-items-end {
+    justify-items: end;
+}
+
+.justify-items-center {
+    justify-items: center;
+}
+
+.justify-content-start {
+    justify-content: start;
+}
+
+.justify-content-end {
+    justify-content: end;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+/* La siguiente opción se utiliza muchísimo */
+.justify-content-space-around {
+    justify-content: space-around;
+}
+
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
+.justify-content-space-evenly {
+    justify-content: space-evenly;
+}
+
+.align-content-start {
+    align-content: start;
+    height: 500px;
+}
+
+.align-content-end {
+    align-content: end;
+    height: 500px;
+}
+
+.align-content-space-around {
+    align-content: space-around;
+    height: 500px;
+}
+
+.align-content-space-between {
+    align-content: space-between;
+    height: 500px;
+}
+
+.align-items-start {
+    align-items: start;
+}
+
+.align-items-end {
+    align-items: end;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.grid-auto-flow-row {
+    grid-auto-flow: row;
+}
+
+.grid-auto-flow-column {
+    grid-auto-flow: column;
+}
