@@ -70,8 +70,8 @@ p.scrollHorizontal {
 p.textoConSombra {
     /* La siguiente línea le agrega una sombra al texto */
     /* 1px hacia la derecha */
-    /* 2px hacia abajo */
-    /* un blur o desenfoque de 3px */
+    /* 3px hacia abajo */
+    /* un blur o desenfoque de 2px */
     /* color verde */
     text-shadow: 1px 3px 2px green;
     /* Concatenación de sombras */
